@@ -79,6 +79,11 @@ body {
 /*----------------------------------------*/
 /*  2. Header area and navbar start here
 /*----------------------------------------*/
+header.header-area{
+    display: block;
+    float: left;
+    width: 100%;
+}
 .menu-area{}
 .menu-area ul{
     margin: 0;
@@ -217,6 +222,9 @@ body {
 /*----------------------------------------*/
 .about-area{
     padding: 90px 0px;
+    float: left;
+    display: block;
+    width: 100%;
 }
 
 .section-title {
@@ -250,6 +258,9 @@ body {
     background-position: center center;
     height: auto;
     padding: 90px 0px;
+    display: block;
+    float: left;
+    width: 100%;
 }
 
 .service-title .section-title {
@@ -306,6 +317,10 @@ body {
 /*----------------------------------------*/
 .business-area{
     padding: 40px 0px;
+    display: block;
+    float: left;
+    width: 100%;
+
 }
 .business-details h3{
     font-size: 30px;
@@ -369,6 +384,9 @@ body {
 /*----------------------------------------*/
 .portfolio-area{
     padding: 60px 0;
+    display: block;
+    float: left;
+    width: 100%;
 }
 
 .portolio-menu{
@@ -392,15 +410,39 @@ body {
     color:#202020;
 }
 .portolio-menu ul li a:hover{}
+.portfolio-content{
+    display: block;
+    width: 100%;
+    float: left;
+}
+.single-portfolio {
+    width: 33.33%;
+    display: block;
+    float: left;
+}
+.single-portfolio .small-portfolio {
+    display: block;
+    float: left;
+    width: 49.99%;
+}
 
+.single-portfolio img {
+    display: block;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
 /*----------------------------------------*/
-/* 7. portfolio Section start Here
+/* 7. Freelancer Section start Here
 /*----------------------------------------*/
 .frelance-area{
     background:url(images/freelance.jpg)no-repeat;
     background-position: center center;
     background-size: cover;
     padding: 80px 0;
+    display: block;
+    float: left;
+    width: 100%;
 }
 .freelance-item.text-center {
     width: 100%;
@@ -430,6 +472,9 @@ body {
 /*----------------------------------------*/
 .priceing-area{
     padding: 80px 0;
+    display: block;
+    float: left;
+    width: 100%;
 }
 .single-price{}
 .price-box{
@@ -479,6 +524,7 @@ body {
     float: left;
     overflow: hidden;
     width: 100%;
+    display: block;
 }
 .team-title .section-title h2{
     color: #fff;
@@ -543,12 +589,13 @@ body {
 /*----------------------------------------*/
 /* 10. Testimonial area Section start Here
 /*----------------------------------------*/
-.testimonial-area{
+.testimonial-area {
     width: 100%;
     float: left;
     overflow: hidden;
     padding: 55px;
     color: #202020;
+    display: block;
 }
 .testimonial-item {
     float: left;
@@ -593,17 +640,15 @@ body {
 /*----------------------------------------*/
 /* 11. Blog area Section start Here
 /*----------------------------------------*/
-.blog-area{
-        width: 100%;
+.blog-area {
+    width: 100%;
     float: left;
     overflow: hidden;
     padding: 80px;
     background-color: #034e9b;
     color: #fff;
-    
+    display: block;
 }
-
-
 
 .blog-title h2{
     color: #fff;
@@ -635,21 +680,23 @@ body {
 /*----------------------------------------*/
 /* 11. widget  Section start Here
 /*----------------------------------------*/
-.Widget-area{
+.Widget-area {
     width: 100%;
     float: left;
     overflow: hidden;
+    display: block;
 }
 
 /*----------------------------------------*/
 /* 10. Counter area Section start Here
 /*----------------------------------------*/
-.counter-area {
-    background-color: #202020;
-    color: #fff;
+.counter-area{
+    display: block;
     width: 100%;
     float: left;
+    overflow: hidden;
 }
+
 .single-counter {
     text-align: center;
     width: 25%;
@@ -692,12 +739,13 @@ body {
 /* ** Footer Section start Here
 /*----------------------------------------*/
 
-.footer-area{
+.footer-area {
     background-color: #034e9b;
     padding: 20px 0px;
     float: left;
     overflow: hidden;
     width: 100%;
+    display: block;
 }
 
 .copyright{}

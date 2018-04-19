@@ -51,6 +51,33 @@
         easingType: 'linear',
         scrollSpeed: 900,
         animation: 'fade'
-    }); 	   
- 
+    }); 	
+
+// init Isotope
+
+/*var $grid = $('.grid').isotope({
+
+});*/
+
+
+/*$('#container').imagesLoaded( function() {*/
+
+var $grid = $('.grid').isotope({
+  itemSelector: '.grid-item',
+  percentPosition: true,
+  masonry: {
+    // use outer width of grid-sizer for columnWidth
+    columnWidth:'.grid-item'
+  }
+})
+
+/*});*/
+
+
+// filter items on button click
+$('.portolio-menu').on( 'click', 'button', function() {
+  var filterValue = $(this).attr('data-filter');
+  $grid.isotope({ filter: filterValue });
+});
+
 })(jQuery); 
