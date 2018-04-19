@@ -1,0 +1,723 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name:Oliva
+    Template URI: http://talukder-it.com
+    Description: This is html5 template
+    Author: BootExperts
+    Author URI: http://talukder-it.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS (body, link color, section etc)
+    2. Header area and navbar start here
+    3. Slider Section start Here
+    4. About Section start Here
+    5. Service Section start Here
+    6. portfolio Section start Here
+    7. freelance Section start Here
+    8. pricing Section start Here
+    9. Team Section start Here
+    10. Testimonils Section start Here
+
+
+-----------------------------------------------------------------------------------*/
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900|Poppins:400,500,600,700');
+html, body {height: 100%;}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+a:focus {outline:0px solid}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 15px;}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+}
+a {transition: all 0.3s ease 0s;text-decoration:none;}
+a:hover {
+  color: #ec4445;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+ul{
+list-style: outside none none;
+margin: 0;
+padding: 0
+}
+.clear{clear:both}
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/*----------------------------------------*/
+/*  2. Header area and navbar start here
+/*----------------------------------------*/
+.menu-area{}
+.menu-area ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+}
+.menu-area ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+}
+.menu-area ul li.active a{
+    color: #034e9b;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.menu-area ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #4c4c4c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.menu-area ul li:hover a{
+    color:#034e9b; 
+}
+/*----------------------------------------*/
+/*  3. Slider Section start Here
+/*----------------------------------------*/
+.slider-area{}
+.slider-area .single-slider{
+    position: relative;
+    text-align: center;
+}
+.slider-area .single-slider .slider-image{}
+.slider-area .single-slider .slider-image img{}
+.slider-area .slider-content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+.slider-area .slider-content h1{}
+.slider-area .slider-content p{}
+.slider-area .slider-content p a{}
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+/*----------------------------------------*/
+/*  4. About Section start Here
+/*----------------------------------------*/
+.about-area{
+    padding: 90px 0px;
+}
+
+.section-title {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+.section-title h2 {
+    font-size: 50px;
+    color: #202020;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 0px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.section-title p{
+    font-size: 24px;
+    color: #202020;
+    line-height:35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+/*----------------------------------------*/
+/*  5. Service Section start Here
+/*----------------------------------------*/
+.service-area{
+    background: url(images/service.jpg)no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: auto;
+    padding: 90px 0px;
+}
+
+.service-title .section-title {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+.service-title .section-title h2 {
+    font-size: 50px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+.service-title .section-title p{
+    font-size: 24px;
+    color: #ffffff;
+    line-height:35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.single-service{}
+.service-icon {
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    line-height: 125px;
+    margin: 0 auto;
+    background: #fff;
+    /* padding: 53px; */
+    display: block;
+}
+.single-service .service-icon i {
+    font-size: 50px;
+    color: #3C3C3C;
+    padding: 40px;
+}
+.single-service h2{
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.single-service p{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+/*----------------------------------------*/
+/* 6. Business Section start Here
+/*----------------------------------------*/
+.business-area{
+    padding: 40px 0px;
+}
+.business-details h3{
+    font-size: 30px;
+    color: #034e9b;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.business-details p{
+    font-size: 16px;
+    color: #202020;
+    margin-bottom:60px;
+}
+
+.b-counter{
+    display: block;
+    width: 100%;
+}
+.b-counter h5 {
+    font-size: 16px;
+    color: #034e9b;
+    margin-bottom: 60px;
+}
+.b-counter .count-left{
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+.b-counter .count-right{
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+.count-left span{
+    font-size: 50px;
+    color: #034e9b;
+    font-weight: 500;
+}
+.count-left p{
+    font-size: 16px;
+    color: #034e9b;
+    font-weight: 500;
+}
+
+
+.count-right span{
+    font-size: 50px;
+    color: #034e9b;
+    font-weight: 500;
+}
+.count-right p{
+    font-size: 16px;
+    color: #034e9b;
+    font-weight: 500;
+}
+
+/*----------------------------------------*/
+/* 6. portfolio Section start Here
+/*----------------------------------------*/
+.portfolio-area{
+    padding: 60px 0;
+}
+
+.portolio-menu{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.portolio-menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: block;
+}
+.portolio-menu ul li{
+    display: inline-block;
+    padding: 10px 15px;
+}
+.portolio-menu ul li a{
+    text-transform: capitalize;
+    font-size: 30px;
+    color:#202020;
+}
+.portolio-menu ul li a:hover{}
+
+/*----------------------------------------*/
+/* 7. portfolio Section start Here
+/*----------------------------------------*/
+.frelance-area{
+    background:url(images/freelance.jpg)no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 80px 0;
+}
+.freelance-item.text-center {
+    width: 100%;
+}
+.freelance-item h2{
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.freelance-item h2 span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;  
+}
+.freelance-item a {
+    font-size: 35px;
+    color: #202020;
+    text-transform: uppercase;
+    background: #fff;
+    padding: 0px 40px;
+    border: none;
+    border-radius:0;
+}
+
+/*----------------------------------------*/
+/* 8. pricing Section start Here
+/*----------------------------------------*/
+.priceing-area{
+    padding: 80px 0;
+}
+.single-price{}
+.price-box{
+    background: #fff;
+    color: #555;
+    list-style-type: none;
+    border:1px solid #555;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+.price-box:hover, .price-box.best{
+    box-shadow: 0 10px 15px 0 #000;
+}
+.price-box li.header{
+    background-color: #111;
+    color: #fff;
+    font-size: 25px;
+
+}
+.price-box li{
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+
+}
+.price-box li.emph{
+    background-color: #f4f4f4;
+    font-size: 20px;
+}
+.button{
+    background-color: #4CAf50;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+/*----------------------------------------*/
+/* 9. Team Section start Here
+/*----------------------------------------*/
+.team-area {
+    padding: 50px 0;
+    background-size: cover;
+    background: url(images/team-bg.jpg)no-repeat;
+    background-position: center center;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+}
+.team-title .section-title h2{
+    color: #fff;
+    font-size: 50px;
+}
+.team-title .section-title p{
+    color: #fff;
+    font-size:18px;
+}
+
+.single-team-content{
+    position: relative;
+}
+.single-team-content .team-image{}
+.single-team-content .team-image img{}
+.single-team-content .team-social {
+    position: absolute;
+    display: block;
+    float: left;
+    width: 80%;
+    background-color: #034e9b;
+    text-align: center;
+    bottom: 89px;
+    margin: 0 auto;
+    left: 35px;
+    padding: 1px 0px;
+    box-shadow: 10px 10px 10px 10px;
+    z-index: 999;
+}
+.single-team-content .team-social ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.single-team-content .team-social ul li{
+    display: inline-block;
+}
+.single-team-content .team-social ul li a {
+    font-size: 21px;
+    color: #fff;
+    padding: 0px 10px;
+}
+.single-team-content .team-content {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background: #034e9b;
+    text-align: center;
+    color: #fff;
+    bottom: 0px;
+    padding: 20px;
+}
+.single-team-content .team-content h4 {
+    margin: 0px;
+    font-size: : 24px;
+}
+.single-team-content .team-content p {
+    margin: 0px;
+    font-size: 14px;
+}
+
+/*----------------------------------------*/
+/* 10. Testimonial area Section start Here
+/*----------------------------------------*/
+.testimonial-area{
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    padding: 55px;
+    color: #202020;
+}
+.testimonial-item {
+    float: left;
+    display: block;
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 10px;
+    box-shadow: 10px 10px 10px;
+    transition: all 0.3s;
+}
+.testimonial-item:hover{
+    background-color:#034e9b;
+    color: #fff;
+}
+.testimonial-item.active{
+    background-color:#034e9b;
+    color: #fff;
+}
+.testimonial-image {
+    width: 20%;
+    float: left;
+    display: block;
+}
+.testimonial-image img{}
+.testititle {
+    float: left;
+    display: block;
+    width: 80%;
+    padding: 10px;
+}
+.testititle h3{
+    margin-bottom: 0px;
+}
+.testititle p{
+    margin-bottom: 0px;
+}
+.testicontent{}
+.testicontent p{
+    margin: 0px;
+}
+
+/*----------------------------------------*/
+/* 11. Blog area Section start Here
+/*----------------------------------------*/
+.blog-area{
+        width: 100%;
+    float: left;
+    overflow: hidden;
+    padding: 80px;
+    background-color: #034e9b;
+    color: #fff;
+    
+}
+
+
+
+.blog-title h2{
+    color: #fff;
+}
+.blog-title p{
+    color: #fff;
+}
+.blog-image{
+    display: block;
+    float: left;
+    width: 100%;
+    position: relative;
+
+}
+
+.blog-image:before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "\f0a5";
+    background-color:rgba(0, 0, 0, .6);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+/*----------------------------------------*/
+/* 11. widget  Section start Here
+/*----------------------------------------*/
+.Widget-area{
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+/*----------------------------------------*/
+/* 10. Counter area Section start Here
+/*----------------------------------------*/
+.counter-area {
+    background-color: #202020;
+    color: #fff;
+    width: 100%;
+    float: left;
+}
+.single-counter {
+    text-align: center;
+    width: 25%;
+    float: left;
+    padding: 50px 0;
+}
+
+.single-counter:hover{
+    background-color: #3f51b5;
+}
+.single-counter.active{
+    background-color: #3f51b5;
+}
+.single-counter i {
+    font-size: 50px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.single-counter span {
+    font-size: 66px;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 75px;
+}
+.single-counter p{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+/*----------------------------------------*/
+/* 10. Testimonils Section start Here
+/*----------------------------------------*/
+
+/*----------------------------------------*/
+/* ** Footer Section start Here
+/*----------------------------------------*/
+
+.footer-area{
+    background-color: #034e9b;
+    padding: 20px 0px;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+}
+
+.copyright{}
+.copyright p{
+    margin: 0px;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+
+}
+
+.footer-social{
+
+    display: block;
+}
+.footer-social i {
+    color: #fff;
+    display: inline-block;
+    padding: 0px 15px;
+    font-size: 30px;
+}
+
